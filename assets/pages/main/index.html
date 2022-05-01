@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
     <title>Shelter</title>
   </head>
 
@@ -76,7 +77,7 @@
         </h3>
         <div class="cards">
           <div class="circle">
-            <img alt="left-narrow" src="/assets/icons/left.png" />
+            <img id="left" alt="left-narrow" src="/assets/icons/left.png" />
           </div>
           <!--- the actual cards  -->
           <div id="card">
@@ -107,10 +108,15 @@
             <button class="btn-main">Larn more</button>
           </div>
           <div class="circle">
-            <img alt="left-narrow" src="/assets/icons/right.png" />
+            <img id="right" alt="right-narrow" src="/assets/icons/right.png" />
           </div>
         </div>
-        <button class="btn-main">Make a Friend</button>
+        <button class="btn-main" style="width: max-content; padding: auto;">
+          Get to know the rest
+        </button>
+      </section>
+      <section id="helpforus">
+        <h2>How you can help our shelter</h2>
       </section>
     </main>
   </body>
