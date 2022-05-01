@@ -1,0 +1,165 @@
+body{
+   color:#ffff;
+   width: 1280px;
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+h1 h2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+header{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items:center;
+}
+.logo{
+    top:80px;
+}
+.logo h5{
+   font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+
+}
+
+h1{
+font-family: 'Georgia';
+font-style: normal;
+font-weight:100;
+font-size: 32px;
+
+/* or 35px */
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+}
+.top-section{
+    background-image: url("/assets//images/start-screen-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding-top: 2.2rem;
+    padding-left: 2.4rem;
+    margin: 0;
+}
+/*nav starts*/
+nav{
+    background-color: transparent;
+    color: #CDCDCD;
+    font-size: small;
+    width: 40vw;
+    position: absolute;
+    top:60px;
+    left: 62%;
+   
+    
+}
+
+ul{
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+    margin: auto;
+    overflow: hidden;  
+    display: inline-flex;
+}
+
+li {
+    background-color: transparent;
+    margin: 10px;
+    display: flex;  
+}
+a{
+color: #CDCDCD;
+text-decoration: none;
+}
+nav ul li :first-child{
+    border-bottom:2px solid wheat ;
+    padding-bottom: 2px;
+}
+
+/*Nav ends*/
+.intro{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+
+}
+
+.intro-text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    font-weight: 400;
+    width: 310px;
+    line-height: 57px;
+}
+.intro-text{
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.btn-main{
+    
+    width: 207px;
+    border-radius: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#292929;
+    background-color: #F1CDB3;;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+}
+/*about section*/
+
+#about{
+    width: 1280px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-txt{
+width: 1200px;
+color: #292929;
+width: 29vw;
+display: flex;
+flex-direction: column;
+align-items:  flex-start;
+padding: 4rem;
+}
+.about-txt h3{
+width: 370px;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+/* or 45px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
+.about-txt p{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #4C4C4C;
+}
+/*about ends*/
+
