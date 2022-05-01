@@ -190,14 +190,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 23px;
-/* identical to box height */
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
-/* color-dark-l */
-
 color: #545454;
 }
 /* our-friends-section*/
@@ -207,6 +203,7 @@ color: #545454;
     flex-direction: column;
     flex-wrap:wrap;
     align-items: center;
+    background-color: #F6F6F6;
 }
 #card{
     display: flex;
@@ -218,18 +215,77 @@ color: #545454;
     
 }
 
+#our-friends h3{  
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 0.06em;
+color: #545454;
+}
+
  .circle {
-        border-radius: 50%;
-        width: 52px;
-        height: 52px;
-        padding: 23px 19px;
-        background: #fff;
-        border: 2px solid #F1CDB3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 23px 19px;
-        box-sizing: border-box;
-        filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)); 
-       border-radius: 100px;
-      }
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  padding: 23px 19px;
+  background: #fff;
+  border: 2px solid #F1CDB3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23px 19px;
+  box-sizing: border-box;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)); 
+  border-radius: 100px;
+}
+
+/*how you can help*/
+#helpforus{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#helpforus h3{
+width: 370px;
+text-align: center;
+font-style: normal;
+
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.icons5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ 
+}
+.icon4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconItem{
+    width: 82px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    margin:70px; 
+}
+.iconItem h4{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:#545454;
+
+width: 165px;
+line-height: 25px;
+text-align: center;
+}
