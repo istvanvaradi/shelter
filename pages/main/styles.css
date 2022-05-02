@@ -361,7 +361,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 40px 40px 0px 40px;
-    background-image: url("/assets//images/start-screen-background.png");
+    background-image: url("../../assets/images/start-screen-background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     padding-top: 2.2rem;
