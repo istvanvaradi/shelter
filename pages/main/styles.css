@@ -429,3 +429,12 @@ box-shadow: 20px 20px 50px rgb(189, 150, 150);
 .circle:hover{
     background-color: #e6aeae;
 }
+
+nav li a:hover{
+    color: #d88951;
+    
+}
+
+.btn-main:hover{
+    background-color: #7c6252;
+}
