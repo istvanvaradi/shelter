@@ -17,6 +17,9 @@ header{
     top:80px;
     align-items: center;
 }
+#logo:hover{
+     cursor: -webkit-grab; cursor: grab;
+}
 .logo h5{
 font-family: 'Arial';
 font-style: normal;
