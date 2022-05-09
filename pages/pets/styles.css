@@ -102,7 +102,7 @@ main{
     letter-spacing: 0.06rem;
     text-align: center;
     margin-top: 5.4rem;
-    margin-bottom: 6.5rem;
+    margin-bottom: 4.5rem;
     font-style: normal;
 
 }
@@ -114,9 +114,10 @@ main{
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #545454;;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-basis: auto;
+    
 }
 .cards p{
 font-family: 'Georgia';
@@ -130,6 +131,9 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #545454;
 }
+.card p{
+    margin-top: 29px;
+}
 
 .card{
     display: flex;
@@ -137,14 +141,11 @@ color: #545454;
     align-items: center;
     background-color: #FAFAFA;
     border-radius: 9px;
-    margin-left: 1.5rem;
-    margin-right: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.3rem;
+
 }
-.cards .card img{
-    padding-top: 40px;
-    padding-bottom: 30px;
-} 
+
+
 .btn-card{
     width: 187px;
     height: 54px;
@@ -183,15 +184,17 @@ footer{
 
 footer h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 34px;
-    font-weight: normal;
-    margin-bottom: 0rem;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 footer h4{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: medium;
+    font-size: 20px;
     font-weight: 400;
     color: #F1CDB3;
     margin-bottom: 0.5rem;
@@ -199,14 +202,14 @@ footer h4{
 }
 
 .suggestion{
-    margin-left: 3rem;
-
+    width: 27%;
+    padding-bottom: 40px;
 }
 /* Pagination */
 .pagination{
     text-decoration: none;
     display: flex;
-    margin-top: 60px;
+    margin-top: 63px;
     margin-bottom: 100px;
 }
 .pagination a {
@@ -234,7 +237,7 @@ footer h4{
 /*footer*/
 footer{
     padding-top: 60px;
-    height: 380px;
+    height: 390px;
 }
 footer img{
     padding-right: 10px;
@@ -247,22 +250,35 @@ footer div{
     flex-direction: column;
     align-content: center;
     justify-self:center;
-    margin:40 40 0 40;
     
 }
 
-footer h4{
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0.006rem;
-    padding-top: 20px;
-}
 
 .footerdog{
-        width: 21vw;
+        width: 287px;
         display: flex;
-        margin-bottom: -2vh;
         margin-left: 1.33rem;
+}
 
 
+/* effects*/
+.btn-card:hover{
+    background-color: #F1CDB3;
+}
+nav li a:hover{
+    color: #e27629;
+    border-bottom:2px solid wheat ;
+    padding-bottom: 2px;
+}
+
+.card:hover{
+box-shadow: 20px 20px 50px rgb(189, 150, 150);
+background-color: #f8f4f1;
+}
+.card:hover .btn-card{
+    background-color: #eecdcd;
+}
+
+ .disabled{
+    pointer-events: none;
 }
