@@ -1,0 +1,196 @@
+body{
+    width: 1280px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #545454;
+    top:36px;
+    left: 36px;
+    width: 1200px;
+    
+}
+#logo{
+    top:80px;
+    align-items: center;
+    color:#545454;
+    font-size:2rem;
+    font-weight: 100;
+    padding-left: 14px;
+}
+#logo:hover{
+     cursor: -webkit-grab; cursor: grab;
+}
+nav{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+    top:40px;
+}
+a{
+    text-decoration: none;
+    color: black;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+/*main*/
+
+/*Card section*/
+#pets{
+    background-color: #F6F6F6;
+    position: relative;
+    top:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pets h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 430px;
+    font-weight: 400;
+    font-size: 2rem;
+    color:#545454;
+    letter-spacing: 0.06rem;
+    text-align: center;
+    margin-top: 6rem;
+    font-style: normal;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;   
+}
+.cards p{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    margin: 1rem;
+}
+.btn-card{
+    width: 207px;
+    border-radius: 100px;
+    border: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#292929;
+    background-color:transparent;
+    border: #F1CDB3 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    margin-bottom: 50px;
+}
+
+
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+    background-image: url("../../assets/images/start-screen-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding-top: 2.2rem;
+    padding-left: 2.4rem;
+    margin: 0;
+    color: #FAFAFA;
+}
+
+footer h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: normal;
+}
+footer h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 400;
+    color: #F1CDB3;
+}
+/* Pagination */
+.pagination{
+    text-decoration: none;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.pagination a {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  padding: 23px 25px;
+  background: #fff;
+  border: 2px solid #F1CDB3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 23px 23px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  align-items: center;
+  margin: 7px;
+}
+.pagination a[disabled]{
+    color: gray;
+    pointer-events: none;
+    border: #545454;
+}
+
+/*footer*/
+footer img{
+    padding-right: 10px;
+    font-size: small;
+}
+footer div{
+    width: 22%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-self:center
+    
+}
+
+.footerdog{
+    bottom: 0px;
+    margin-bottom: -70px;
+}

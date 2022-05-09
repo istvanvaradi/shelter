@@ -177,13 +177,9 @@ font-weight: 400;
 font-size: 35px;
 line-height: 130%;
 /* or 45px */
-
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
-
-/* color-dark-l */
-
 color: #545454;
 }
 .about-txt p{
