@@ -206,7 +206,7 @@ footer{
     background-size: 100% 100%; 
     color: #FAFAFA;
     padding-top: 75px;
-    height: 60vh;
+    height: 400px;
 
 }
 
@@ -261,7 +261,7 @@ footer div{
 .footerdog{
         width: 297px;
         margin-left: 2.13rem;
-        margin-bottom: -36px;
+        margin-bottom: -20px;
 }
 
 
