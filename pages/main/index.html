@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/cac068efe9.js" crossorigin="anonymous"></script>
     <script src="index.js" defer></script>
     <title>Shelter</title>
   </head>
@@ -19,22 +20,24 @@
             <h5>Shelter for Pets in Boston</h5>
           </section>
           <nav>
-            <ul>
+            <ul  id="nav-list">
               <li><a href="#about">About the shelter</a></li>
               <li><a href="../pets/index.html">Our pets</a></li>
               <li><a href="#helpforus">Helpt the shelter</a></li>
               <li><a href="#footer">Contacts</a></li>
             </ul>
           </nav>
+           <button  class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </button>
         </header>
-        <section class="intro">
+        <section class="intro" >
           <img
             class="puppy"
             src="../../assets/images/start-screen-puppy.png"
-            width="690px"
             alt="beagle-puppy"
           />
-          <div class="intro-text">
+          <div class="intro-text" >
             <h2>
               Not only people need a house
             </h2>
@@ -137,8 +140,8 @@
         </button>
       </section>
       <section id="helpforus">
-        <h3>How you can help our shelter</h3>
-        <div class="icons5">
+        <h3>How you can help<br> our shelter</h3>
+        <div id="icons">
           <div class="iconItem">
             <img alt="petfood" src="../../assets/icons/Vector.png" />
             <h4>Pet food</h4>
@@ -163,8 +166,7 @@
             <img alt="shampoos" src="../../assets/icons/icon-shampoos.svg" />
             <h4>Shampoos</h4>
           </div>
-        </div>
-        <div class="icon4">
+       
           <div class="iconItem">
             <img alt="vitamins" src="../../assets/icons/icon-vitamins.svg" />
             <h4>Vitamins</h4>
@@ -188,16 +190,18 @@
             <h4>Sleeping areas</h4>
           </div>
         </div>
+        </div>
+         </div>
       </section>
-      <section id="donate" style="height: 480px; background-color: #f6f6f6;">
+      <section id="donate" >
         <img
           alt="donation-dog"
           src="../../assets/images/donation-dog.png"
-          width="505px"
+          
           class="donation-content1"
         />
         <div class="donation-content2">
-          <h3>You can also make a donation</h3>
+          <h3>You can also<br> make a donation</h3>
           <h5>Name of the bank/Type of the bank account</h5>
           <h4 class="bankcard">
             <a href="www.com" target="_blank">
@@ -217,7 +221,7 @@
         </div>
       </section>
       <footer id="footer">
-        <div class="suggestion">
+        <div class="suggestion footerItem">
           <h3>
             We are waiting for your visit
           </h3>
@@ -237,7 +241,7 @@
             +13 674 567 75 54
           </h4>
         </div>
-        <div class="visit">
+        <div class="visit footerItem">
           <h3>
             For questions and suggestions
           </h3>
@@ -262,7 +266,7 @@
         </div>
         <div>
           <img
-            class="footerdog"
+            class="footerdog footerItem"
             alt="puppy"
             src="../../assets/images/footer-puppy.png"
           />

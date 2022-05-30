@@ -1,17 +1,26 @@
-
+h3{
+    font-weight: 100;
+}
 body{
-   width: 1280px;
    margin: auto;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
    letter-spacing: 0.06em;
 }
 
+
 header{
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    align-items:center;
+    display: flex;
+    justify-content: space-between;    
+}
+.puppy{
+    width:50%;
+}
+main{
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    width: 1200px;
+    overflow: hidden;
 }
 .logo{
     top:80px;
@@ -35,10 +44,10 @@ font-style: normal;
 font-weight:100;
 font-size: 32px;
 margin-bottom: 0px;
-/* or 35px */
-display: flex;
+    display: flex;
 align-items: center;
 letter-spacing: 0.06em;
+font-size: 190%;
 color: #F1CDB3;
 }
 .top-section{
@@ -48,21 +57,21 @@ color: #F1CDB3;
     padding-top: 2.2rem;
     padding-left: 2.4rem;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
     color: #FAFAFA;
-    margin-bottom: -3px;
-    background-size: 100vw;
+ 
 }
 /*nav starts*/
 nav{
     background-color: transparent;
     color: #CDCDCD;
-    font-size: small;
+    display: flex;
+justify-content: space-between;    font-size: 30%;
     width: 40vw;
-    position: absolute;
     top:60px;
-    left: 62%;
-   
-    
+    left: 62%; 
 }
 
 ul{
@@ -73,7 +82,7 @@ ul{
     overflow: hidden;  
     display: inline-flex;
 }
-
+    
 li {
     background-color: transparent;
     margin: 10px;
@@ -82,6 +91,8 @@ li {
 a{
 color: #CDCDCD;
 text-decoration: none;
+font-size: 1rem;
+margin-top: 1rem;
 }
 nav li:first-child a {
     border-bottom:2px solid wheat ;
@@ -93,8 +104,7 @@ nav li:first-child a {
     display: inline-flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
-    align-content: space-around;
-    
+justify-content: space-between;    
 
 }
 
@@ -135,6 +145,9 @@ nav li:first-child a {
     font-size: larger;
     margin: 20px;
 
+}
+.btn-main a {
+    font-size: 12px;
 }
 .btn-card{
  width: 207px;
@@ -280,11 +293,11 @@ color: #545454;
     flex-direction: column;
     align-items: center;
 }
+/*icons section*/
 #helpforus h3{
 width: 370px;
 text-align: center;
 font-style: normal;
-
 font-weight: 400;
 font-size: 35px;
 line-height: 130%;
@@ -292,18 +305,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 letter-spacing: 0.06em;
 color: #545454;
 }
-.icons5{
+#icons{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    
- 
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.icon4{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 .iconItem{
     width: 82px;
     height: 113px;
@@ -330,6 +337,8 @@ text-align: center;
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 480px;
+     background-color: #f6f6f6;"
 }
 .donation-content2{
     width: 30%;
@@ -455,4 +464,205 @@ nav li a:hover{
 
 .btn-main:hover{
     background-color: #7c6252;
+}
+.hamburger{
+  display: none;
+}
+
+
+@media screen and ( max-width:1280px) {
+    body{
+        size: auto;
+    }
+    main{
+        max-width: 100vw;
+    }
+   .intro{
+       flex-direction: column-reverse;
+       justify-content: space-around;
+       align-items: center;
+       margin-left: 20vw;
+       }
+       .intro p{
+           width: 40vw;
+       }
+       .intro-text{
+           margin-bottom: 10rem;
+           margin-left: -20rem;
+           margin-top: -10rem;
+       }
+       .intro .puppy{
+    width: 80%;
+}
+       header{
+           justify-content: center;
+           width: 100%;
+           
+       }
+      nav{
+          width: 70vw;
+      }nav a{
+          font-size: 1rem;
+          margin-top: 1rem;
+      }
+      #about{
+          flex-direction: column-reverse;
+          align-items: center;
+          width: 100vw;
+      }
+    .about-txt {
+    color: #292929;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: left;
+    padding: 4rem;}
+    #our-friends .cards {
+        justify-content: space-between;
+        margin-left: 1%;
+    }
+    #our-friends .cards :nth-child(4){ 
+        display: none;
+    }
+   
+    .cards{
+        gap:1.87rem;
+    }
+    .card{
+        margin: 0;
+    }
+    #donate{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .donation-content2{
+        width: 45%;
+    }
+    #footer{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footerItem{
+        flex-basis: 47%;
+        align-items: flex-start;
+        margin: 0px;
+        width: 200px;
+    }
+    
+    #footer .footerdog{
+        height: 400px;
+    }
+
+}
+
+
+@media screen and (max-width:768px)  {
+    body{
+        size: auto;
+    }
+    main{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+.intro .puppy{
+    width: 80%;
+}
+
+
+.hamburger{
+    border: 0;
+    background-color: transparent;
+    padding-right:2rem ;
+    color: #e6aeae;
+    font-size: 30px;
+    display: block;
+}
+.top-section{
+    padding-left: 5px;
+}
+
+#nav-list{
+    display: none   ;
+    background-color: #292929;
+    color: #e6aeae;
+}
+
+
+  #footer{
+     flex-direction: column;
+     justify-content: center;
+     flex-basis: 100%;
+  }  
+
+  header .logo{
+      width: 300%;
+      padding-left: 0px;
+  }
+
+  .cards{
+      flex-direction: column;
+  }
+
+  .iconItem{
+    width: 19px;
+    flex-shrink: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    
+}
+#icons{
+    justify-content: flex-start;
+    flex-basis: 50%;
+}
+  #about{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+  }
+ .about-txt{
+     justify-content: center;
+     width: 90%;
+ }
+ .about-txt h3{
+     width: 100%;
+     font-size: 30px;
+     text-align: center;
+ }
+
+  #our-friends .cards :nth-child(2){ 
+        display: none;
+    }
+#donate{
+    padding: 10px;
+    
+}
+.donation-content2{
+    width: 90vw;
+}
+#donate h3{
+text-align: center;
+}
+.donation-content1{
+     width: 90%;
+}
+#donate h5{
+    font-size: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+#helpforus h3{
+width: 95vw;
+font-size: 2rem;
+}
+#footer img{
+    margin-left: -2rem;
+}
+
 }
