@@ -483,29 +483,29 @@ nav li a:hover{
    .intro{
        flex-direction: column-reverse;
        justify-content: space-around;
-       margin-top: 50%;
+       margin-top: 10%;
        align-items: center;
        margin-left: 15%;
        }
        .intro p{
-           width: 67vw;
-           padding: 4px;
-       }
+           width: 61vw;
+           padding: 4px;   }
        .intro h2{
            width: 70vw;
-           font-size: 30px;
+           font-size: 34px;
        }
        .intro-text{
         margin-bottom: 10rem;
         margin-left: -59vw;
-        margin-top: -18rem;
+        margin-top: -10rem;
        }
        .intro .puppy{
-    width: 100%;
+    width: 60%;
 }
        header{
            justify-content: center;
            width: 100%;
+           display: flex;
            
        }
       nav{
