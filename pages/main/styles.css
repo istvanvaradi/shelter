@@ -276,7 +276,7 @@ color: #545454;
  .circle {
   border-radius: 50%;
   width: 52px;
-  order: 2;
+  
   height: 52px;
   padding: 23px 19px;
   background: #fff;
@@ -548,6 +548,8 @@ nav li a:hover{
     padding-left: 0.4rem;
     padding-right: 0.4rem;
 }
+
+
     .cards{
         gap:1.87rem;
     }
@@ -588,7 +590,9 @@ nav li a:hover{
         display: flex;
         flex-direction: column;
     }
-
+.circle{
+    order:2
+}
 .intro .puppy{
     width: 80%;
 }
