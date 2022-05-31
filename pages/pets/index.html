@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+  <script src="index.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/cac068efe9.js" crossorigin="anonymous"></script>
+
     <title>Shelter pets page</title>
   </head>
   <body>
@@ -16,14 +20,17 @@
             </h1>
             <p>Shelter for Pets in Boston</p>
           </section>
-          <nav>
-            <ul>
+          <nav >
+            <ul id="nav-list">
               <li><a href="../main/index.html#about" >About the shelter</a></li>
               <li><a href="../pets/index.html" class="disabled">Our pets</a></li>
               <li><a href="../main/index.html#helpforus">Helpt the shelter</a></li>
               <li><a href="#footer">Contacts</a></li>
             </ul>
           </nav>
+          <button  class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </button>
         </header>
         <main>
             <div id="pets">

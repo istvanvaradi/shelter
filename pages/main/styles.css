@@ -480,19 +480,25 @@ nav li a:hover{
    .intro{
        flex-direction: column-reverse;
        justify-content: space-around;
+       margin-top: 50%;
        align-items: center;
-       margin-left: 20vw;
+       margin-left: 15%;
        }
        .intro p{
-           width: 40vw;
+           width: 67vw;
+           padding: 4px;
+       }
+       .intro h2{
+           width: 70vw;
+           font-size: 30px;
        }
        .intro-text{
-           margin-bottom: 10rem;
-           margin-left: -20rem;
-           margin-top: -10rem;
+        margin-bottom: 10rem;
+        margin-left: -59vw;
+        margin-top: -18rem;
        }
        .intro .puppy{
-    width: 80%;
+    width: 100%;
 }
        header{
            justify-content: center;
@@ -572,6 +578,11 @@ nav li a:hover{
 }
 
 
+
+
+.intro p{
+    width: 60vw;
+}
 .hamburger{
     border: 0;
     background-color: transparent;
@@ -581,13 +592,15 @@ nav li a:hover{
     display: block;
 }
 .top-section{
-    padding-left: 5px;
+    
 }
 
 #nav-list{
     display: none   ;
-    background-color: #292929;
+       background-color: #292929;
     color: #e6aeae;
+    width: inherit;
+    border-radius: 15px;
 }
 
 
@@ -608,7 +621,7 @@ nav li a:hover{
 
   .iconItem{
     width: 19px;
-    flex-shrink: inherit;
+    flex-shrink: inherit    ;
     display: flex;
     flex-direction: column;
     padding: auto;
@@ -646,6 +659,7 @@ nav li a:hover{
 }
 #donate h3{
 text-align: center;
+width: auto;
 }
 .donation-content1{
      width: 90%;
@@ -664,5 +678,26 @@ font-size: 2rem;
 #footer img{
     margin-left: -2rem;
 }
+
+footer .footerItem h4,h3{
+    margin-top: -10px;
+    width: 40vw;
+}
+
+.footerItem h3{
+    margin-left: -15%;
+}
+.footerItem{
+align-items: flex-start;
+}
+
+footer .footerItem{
+    margin-left: 25%;
+    width: max-content;
+}
+#footer .footerdog{
+    width: 45vw;
+}
+
 
 }
