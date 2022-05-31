@@ -107,7 +107,9 @@ nav li:first-child a {
 justify-content: space-between;    
 
 }
-
+.btn-main a{
+    margin: 0.3rem;
+}
 .intro-text h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -274,6 +276,7 @@ color: #545454;
  .circle {
   border-radius: 50%;
   width: 52px;
+  order: 2;
   height: 52px;
   padding: 23px 19px;
   background: #fff;
@@ -531,7 +534,20 @@ nav li a:hover{
     #our-friends .cards :nth-child(4){ 
         display: none;
     }
-   
+   #our-friends h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    margin-top: 4rem;
+    width: 100vw;
+    line-height: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
     .cards{
         gap:1.87rem;
     }
