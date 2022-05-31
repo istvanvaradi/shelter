@@ -84,9 +84,9 @@ ul{
 }
     
 li {
-    background-color: transparent;
+       background-color: transparent;
     margin: 10px;
-    display: flex;  
+    display: flex;
 }
 a{
 color: #CDCDCD;
@@ -597,7 +597,7 @@ nav li a:hover{
 
 #nav-list{
     display: none   ;
-       background-color: #292929;
+ background-color: #292929;
     color: #e6aeae;
     width: inherit;
     border-radius: 15px;

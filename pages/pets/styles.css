@@ -141,7 +141,7 @@ color: #545454;
     background-color: #FAFAFA;
     border-radius: 9px;
     margin-bottom: 2.3rem;
-
+    width: 340px;
 }
 
 
@@ -285,6 +285,7 @@ background-color: #f8f4f1;
     header{
         justify-content: center;
         width: auto;
+        overflow: ;
     }
     nav{
         height: 120px;
@@ -293,17 +294,9 @@ background-color: #f8f4f1;
         font-size: 15px;
     }
 
-    .cards{
-        flex-wrap: wrap;
-    }
-    .card{
-            flex-basis: 47%;
-            width: 100px;
-    }
-
        #footer{
            flex-wrap: wrap;
-    overflow-wrap: break-word;
+        overflow: hidden;
     justify-content: center;
 }
     }
@@ -367,6 +360,7 @@ ul{
     background-color: transparent;
     overflow: hidden;
     margin: auto;
+    overflow: hidden;  
     display: flex;
     flex-direction: column;
     height: auto;
@@ -388,14 +382,47 @@ margin-top: 1rem;
     display: none   ;
     background-color: #292929;
     color: #e6aeae;
-    width: 200px;
+    z-index: 2;
+}
+nav{
+   position: absolute;
+   margin-right: 50vw;
+   height: 100vh;
 }
 
 .cards{
+    display: flex;
     width: 100vw;
+    justify-content: space-evenly;
+    align-content: center;
+            overflow: hidden;
+
 }
+
+.card{
+    flex-wrap: wrap;
+
+    width: 66.666%;
+}
+
+
 footer{
+    display: flex;
     flex-direction: column;
-    flex-basis: 60%;
+    width: 100vw;
+    align-items: center;
+}
+footer h3{
+    font-size:30px;
+}
+.footerdog .footerItem{
+    width: 50vw;
+}
+#pets{
+    overflow: hidden;
+}
+
+#pets h2{
+    width:89vw;
 }
 }
