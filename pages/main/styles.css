@@ -671,6 +671,10 @@ width: auto;
     font-weight: 100;
     
 }
+
+#helpforus{
+    margin-top: 3rem;
+}
 #helpforus h3{
 width: 95vw;
 font-size: 2rem;
