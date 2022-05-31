@@ -597,7 +597,7 @@ nav li a:hover{
 
 #nav-list{
     display: none   ;
- background-color: #292929;
+     background-color: #292929;
     color: #e6aeae;
     width: inherit;
     border-radius: 15px;
@@ -698,6 +698,9 @@ footer .footerItem{
 #footer .footerdog{
     width: 45vw;
 }
-
+.btn-card{
+    width: 11rem;
+    height: 3.5rem;
+}
 
 }
