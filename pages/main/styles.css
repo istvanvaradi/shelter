@@ -591,8 +591,8 @@ nav li a:hover{
     font-size: 30px;
     display: block;
 }
-.top-section{
-    
+.top-section .btn-main{
+    margin-left: auto;
 }
 
 #nav-list{
