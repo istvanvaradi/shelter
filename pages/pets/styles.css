@@ -285,7 +285,7 @@ background-color: #f8f4f1;
     header{
         justify-content: center;
         width: auto;
-        overflow: ;
+        overflow:hidden ;
     }
     nav{
         height: 120px;
