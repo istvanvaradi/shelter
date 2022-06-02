@@ -206,9 +206,9 @@ footer{
     background-size: 100% 100%; 
     color: #FAFAFA;
     padding-top: 75px;
-    height: auto;
-
+        padding-left: 68px;
 }
+
 
 footer h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -248,12 +248,8 @@ footer img{
     font-size: small;
 }
 
+ 
 
-.footerdog{
-        width: 297px;
-        margin-left: 2.13rem;
-        margin-bottom: -20px;
-}
 
 
 /* effects*/
@@ -285,7 +281,7 @@ background-color: #f8f4f1;
     header{
         justify-content: center;
         width: auto;
-        overflow:hidden ;
+        overflow:hi ;
     }
     nav{
         height: 120px;
@@ -295,9 +291,11 @@ background-color: #f8f4f1;
     }
 
        #footer{
-           flex-wrap: wrap;
-        overflow: hidden;
+   display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
     justify-content: center;
+    
 }
     }
     .footerItem{
@@ -307,9 +305,7 @@ background-color: #f8f4f1;
         width: 234px;
         align-content: center;
     }
-    #footer .footerdog{
-        width: max-content;
-    }
+   
     .suggestion .visit{
         align-items: flex-start;
         align-content: flex-end;
@@ -411,6 +407,8 @@ footer{
     flex-direction: column;
     width: 100vw;
     align-items: center;
+    padding-left: 0;
+
 }
 footer h3{
     font-size:30px;
@@ -418,6 +416,7 @@ footer h3{
 .footerdog .footerItem{
     width: 50vw;
 }
+
 #pets{
     overflow: hidden;
 }
