@@ -175,9 +175,45 @@ justify-content: space-between;
     align-items: center;
     justify-content: space-around;
 }
+ .modal{
+  visibility:hidden;
+   display: flex;
+   justify-content: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: auto;
+  z-index: 9999;
+  overflow: auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 100px;
+  background-color: rgb(236, 232, 232);
+
+} 
+
+.modal h2{
+    padding: 2rem;
+    display: flex;
+}
+.modal img{
+    width: 240px;
+    padding-bottom: 2rem;
+}
+.modal button{
+width: 52px;
+    height: 52px;
+    background: #fff;
+    border: 2px solid #F1CDB3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
 
 .about-txt{
-width: 1200px;
 color: #292929;
 width: 29vw;
 display: flex;
@@ -185,6 +221,13 @@ flex-direction: column;
 align-items:  flex-start;
 justify-content: left;
 padding: 4rem;
+}
+
+.blur{
+   
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
 }
 .about-txt h3{
 width: 370px;
@@ -235,9 +278,12 @@ color: #545454;
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
+    justify-content: center;
     align-items: center;
     background-color: #F6F6F6;
 }
+
+
 .card{
     display: flex;
     flex-direction: column;
@@ -269,15 +315,12 @@ color: #545454;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 23px 19px;
   box-sizing: border-box;
-  
   border-radius: 100px;
 }
  .circle {
   border-radius: 50%;
   width: 52px;
-  
   height: 52px;
   padding: 23px 19px;
   background: #fff;
@@ -289,6 +332,13 @@ color: #545454;
   box-sizing: border-box;
   filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)); 
   border-radius: 100px;
+}
+#cardCollection{
+    width: 70vw;
+}
+#cardCollection .card .btn-card{
+    width: 7vw;
+    display: flex;
 }
 
 /*how you can help*/
@@ -332,7 +382,6 @@ width: 165px;
 line-height: 25px;
 text-align: center;
 }
-
 /*Donation*/
 #donate{
     padding-bottom: 100px;
@@ -409,6 +458,8 @@ footer{
     color: #FAFAFA;
 }
 
+
+
 footer h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
@@ -465,15 +516,25 @@ nav li a:hover{
     color: #d88951;
     
 }
-
+.close{
+    color: #292929;
+    width: 20px;
+    position: fixed;
+}
  
 
 .btn-main:hover{
     background-color: #7c6252;
 }
 .hamburger{
-  display: none;
+ display: none;
+
 }
+.rotate{
+     transition: 0.5s;
+    transform:rotate(90deg);
+}
+
 
 
 @media screen and ( max-width:1280px) {
@@ -534,6 +595,7 @@ nav li a:hover{
         justify-content: space-between;
         margin-left: 1%;
     }
+
     #our-friends .cards :nth-child(4){ 
         display: none;
     }
@@ -601,7 +663,17 @@ nav li a:hover{
     width: 80%;
 }
 
+nav{
+    background-color: #292929;
+    color: #e6aeae;
+    width: inherit;
+    border-radius: 15px;
+    width: max-content;
+}
+nav .hamburger{
+margin-right: 10%;
 
+}
 
 
 .intro p{
@@ -614,10 +686,9 @@ nav li a:hover{
     color: #e6aeae;
     font-size: 30px;
     display: block;
+   
 }
-.top-section .btn-main{
-    margin-left:    ;
-}
+
 
 #nav-list{
     display: none   ;
