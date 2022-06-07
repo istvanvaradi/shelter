@@ -54,6 +54,7 @@ nav{
     margin-top: -20px;
    
 }
+#nav-list{}
 nav ul{
     margin-top: 0;
 }
@@ -337,6 +338,7 @@ background-color: #f8f4f1;
 @media screen and (max-width:768px){
 
     header {
+    display: flex;
     justify-content: space-between;
     width: 100vw;
 }
@@ -356,6 +358,15 @@ main{
     color: #e6aeae;
     font-size: 30px;
     display: block;
+    margin-left: 10%;
+
+}
+#nav-list{
+    display:none;
+    background-color: #292929;
+    height: 100%;
+    width: auto;
+    padding: 0;
 }
 ul{
     list-style-type: none;
@@ -383,9 +394,10 @@ margin-top: 1rem;
 
 
 nav{
-   position: absolute;
-   margin-right: 50vw;
-   height: 100vh;
+  position: absolute;
+    margin-right: 31vw;
+    margin-left: -100px;
+    height: 100vh;
 }
 
 .cards{
@@ -393,7 +405,7 @@ nav{
     width: 100vw;
     justify-content: space-evenly;
     align-content: center;
-            overflow: hidden;
+    overflow: hidden;
 
 }
 
