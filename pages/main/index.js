@@ -67,9 +67,17 @@ fetch('./main.json')
             card.appendChild(name)
             card.appendChild(button)
             cardCollection.appendChild(card)
+            //modal behaviour
             close.addEventListener('click', (e) => {
                 e.target.parentNode.style = 'visibility:hidden'
                 document.body.style = 'overflow-y:auto'
+                document.getElementById('cover').style = 'visibility:hidden'
+            })
+
+            document.getElementById('cover').addEventListener('click', (e) => {
+                modal.style = 'visibility:hidden'
+                document.body.style = 'overflow-y:auto'
+                document.getElementById('cover').style = 'visibility:hidden'
             })
 
             card.addEventListener('click', (e) => {
@@ -77,10 +85,11 @@ fetch('./main.json')
                     e.target.parentNode.firstElementChild.style =
                         'visibility:visible'
                     document.body.style = 'overflow-y:hidden'
+                    document.getElementById('cover').style =
+                        'visibility:visible'
                 }
+
+                //modal ends here
             })
         }
     })
-
-let close = document.createElement('button')
-close.innerHTML = 'X'

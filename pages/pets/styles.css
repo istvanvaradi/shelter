@@ -327,7 +327,14 @@ background-color: #f8f4f1;
     display: none;
 }
 
-
+.rotate{
+     transition: 0.5s;
+    transform:rotate(90deg);
+}
+.rotate-back{
+    transition: 0.5s;
+    transform:rotate(-90deg); 
+}
 @media screen and (max-width:768px){
 
     header {
