@@ -670,9 +670,7 @@ nav li a:hover{
         display: flex;
         flex-direction: column;
     }
-.circle{
-    order:2
-}
+
 .intro .puppy{
     width: 80%;
 }

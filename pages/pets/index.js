@@ -2,7 +2,6 @@ const hamburgerButton = document.getElementById('hamburger')
 const navList = document.getElementById('nav-list')
 const logo = document.getElementById('logo')
 
-navList.style.backgroundColor = 'black'
 function toggleButton() {
     if (navList.style.display === 'none') {
         navList.style.display = 'block'
